@@ -1,0 +1,469 @@
+.logo-item{
+    color: white;
+    text-decoration: none;
+    background-color: black;
+}
+
+.container1{
+    height: 102vh;
+    background-attachment: fixed;
+}
+
+.display-container{
+    position: relative;
+}
+
+.top-left {
+    position: absolute;
+    top: 18%;
+    left: 10%;
+    text-transform: uppercase;
+    font-size: 60px;
+    font-weight: 700;
+    letter-spacing: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    text-shadow: -6px 3px 0px rgba(0,0,0,0.8);
+}
+
+.top-left2 {
+    position: absolute;
+    top: 28%;
+    left: 10%;
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 5px;
+    margin-bottom: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    text-shadow: -6px 3px 0px rgba(0,0,0,0.8);
+}
+
+.bottom-right {
+    position: absolute;
+    bottom: 25%;
+    right: 1%;
+    color:rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 2px 2px 0px rgb(10, 10, 10), 5px 4px 0px rgba(0,0,0,0.15);
+}
+
+.bottom-right2 {
+    position: absolute;
+    bottom: 18%;
+    right: 1%;
+    padding-bottom: 1%;
+    color:white;
+    font-size: 19px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 2px 2px 0px rgb(10, 10, 10), 5px 4px 0px rgba(0,0,0,0.15);
+}
+
+.bottom-right3 {
+    position: absolute;
+    bottom: 13.8%;
+    right: 1%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    color:white;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 2px 2px 0px rgb(10, 10, 10), 5px 4px 0px rgba(0,0,0,0.15);
+}
+
+.bottom-right4 {
+    position: absolute;
+    bottom: 8.3%;
+    right: 1%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    color:white;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 2px 2px 0px rgb(10, 10, 10), 5px 4px 0px rgba(0,0,0,0.15);
+}
+
+.bottom-right5 {
+    position: absolute;
+    right: 1%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    color:rgba(255, 255, 255, 0.774);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 2px 2px 0px rgb(10, 10, 10), 5px 4px 0px rgba(0,0,0,0.15);
+}
+
+.desenvolvedor{
+    color: white;
+    text-decoration: none;
+}
+
+.desenvolvedor:hover{
+    color: blueviolet;
+}
+
+/* Slideshow container */
+.slideshow-containerhome{
+    max-height: 102vh;
+    padding-top: 0%;
+    width: 100%;
+    position: relative;
+    margin: auto;
+  }
+  
+  .slideshow-containerhome img{
+      position: relative;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* Fading animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 20s;
+  }
+  
+  
+  @media only screen and (max-width: 300px) {
+    .text {font-size: 11px}
+  }
+
+
+/* Bounce To Left  hrmmmmm ;------; esmeraldas por pão? */
+.hvr-bounce-to-left {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+}
+
+.hvr-bounce-to-left:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(57, 37, 167, 0.836);
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transform-origin: 100% 50%;
+    transform-origin: 100% 50%;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+  .hvr-bounce-to-left:hover, .hvr-bounce-to-left:focus, .hvr-bounce-to-left:active {
+    color: white;
+}
+  .hvr-bounce-to-left:hover:before, .hvr-bounce-to-left:focus:before, .hvr-bounce-to-left:active:before {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+    -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+    transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+}
+/*fim do hover:bounce*/
+
+.container2 {
+    padding-top: 0%;
+    background-color: white;
+    position: relative;
+}
+
+
+.container2comp{
+    padding-top: 0%;
+    background-color: white;
+    height: 85vh;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.titulo{
+    padding-top: 2%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    text-align: center;
+    margin: 0px;
+    font-size: 40px;
+}
+
+.titulo2{
+    padding-top: 3%;
+    padding-bottom: 1%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    text-align: center;
+    margin: 0px;
+    font-size: 40px;
+}
+
+.introbox{
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.textointrobox{
+    width: 100%;
+    background-color: white;
+    padding-bottom: 1%;
+}
+
+.textointro{
+    color: rgb(56, 56, 56);
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+
+}
+
+.linkintro {
+  color: #3366cc;
+  text-decoration: none;
+}
+
+.imgintrobox{
+    width: 100%;
+}
+
+/* flex box*/
+.containerflexbox{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    position: relative;
+}
+
+.containerflexbox > div{
+    width: calc(50vw/5);
+    height: 46vh;
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    position: relative;
+}
+
+.one {
+    font-family: 'Inconsolata', monospace;
+    background-color: rgb(11, 41, 139);
+    padding:5%;
+}
+
+.two{
+    font-family: 'Inconsolata', monospace;
+    background-color: rgb(29, 61, 167);
+    padding:5%;
+}
+
+.three{
+    font-family: 'Inconsolata', monospace;
+    background-color: rgb(35, 72, 192);
+    padding:5%;
+}
+
+.four {
+    font-family: 'Inconsolata', monospace;
+    background-color: rgb(54, 91, 212);
+    padding:5%;
+}
+
+.five{
+    font-family: 'Inconsolata', monospace;
+    background-color: rgb(83, 120, 243);
+    padding:5%;
+}
+
+
+/*fim da flexbox*/
+
+.container3{
+    padding-top: 0%;
+    height: 80vh;
+    width: 100%;
+    background-image: url(./imagens/hollowknight.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.curiosidadesbox{
+    padding-left: 19%;
+    padding-right: 5%;
+    padding-top: 3%;
+    padding-bottom: 5%;
+}
+
+.curiosidadesbox2{
+    padding-left: 19%;
+    padding-right: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.factl1{
+    float: left;
+    width: calc(50vw/2);
+    text-align: center;
+    font-family: monospace;
+    font-size: 17px;
+    margin-bottom: 3%;;
+    box-shadow: 10px 9px 20px 2px rgba(0,0,0,1);
+}
+
+.factbox{
+    padding-top: 3%;
+    padding-bottom: 3%;
+    background-color: rgba(219, 217, 217, 0.87);
+    padding-left: 4.4%;
+    padding-right: 4.4%;
+    margin-right: 15%;
+    border-radius: 5px;
+}
+
+
+.marginfact{
+    margin: 5px;
+    color: black;
+}
+
+.container4{
+  background-color: #f2f2f2;
+  padding-left: 15%;
+  padding-right: 15%;
+  background-image: url(./imagens/pacc.gif);
+}
+
+* {box-sizing: border-box}
+
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: rgba(0, 0, 0, 0);
+  }
+
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: rgba(42, 89, 243, 0.808); 
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgba(42, 89, 243, 0.514); 
+  }
+
+
+ .container5{
+    padding-top: 0%;
+
+}
+
+.quote{
+    width: 100%;
+    min-height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    z-index: 2;
+    padding: 5%;
+
+    font-family: 'Roboto', sans-serif;
+}
+
+.quote .box{
+    position: relative;
+    width: 250px;
+    height: 350px;
+    background: rgba(255, 255, 255, 0.651);
+    overflow: hidden;
+    transform: 0.5s;
+    z-index: 2;
+    box-sizing: border-box;
+    padding: 30px;
+    box-shadow: -10px 25px 50px rgba( 0,0, 0, .2);
+    border-radius: 5px;
+}
+
+.quote .box:hover {
+   background: linear-gradient(124deg, #1ddde8, #2b1de8, #3366cc);
+   background-size: 1800% 1800%;
+   -webkit-animation: rainbow 10s ease infinite;
+-z-animation: rainbow 2s ease infinite;
+-o-animation: rainbow 2s ease infinite;
+  animation: rainbow 2s ease infinite;}
+
+@-webkit-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@-moz-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@-o-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@keyframes rainbow { 
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+
+.container-1{
+    background-image: url(./imagens/ninja2.jpg);
+}
+
+.titulo-container1{
+  color: white;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 4%;
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.overlay {
+    width:100%;
+    background-color: rgba(0, 0, 0, 0.575);
+}
+
+.link-engine{
+    color: black;
+}
+
+body{
+    margin:0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
